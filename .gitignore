@@ -7,5 +7,5 @@
 # 忽略.git文件夹
 .git/
 
-
-!1_1_helloworld.exe
+# 忽略.gitignore文件
+.gitignore
