@@ -13,7 +13,9 @@ public:
     // }
 
     // 初始化列表方式初始化
-    Person(int a, int b, int c) : m_A(a), m_B(b), m_C(c) {}
+    Person(int a, int b, int c) : m_A(a), m_B(b), m_C(c)
+    {
+    }
     void printPerson()
     {
         cout << "mA: " << m_A << endl;
