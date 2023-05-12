@@ -36,5 +36,7 @@ int Person::m_B = 10;
 
 int main()
 {
+    Person p1();
     cout << sizeof(Person) << endl;
+    cout << sizeof(p1) << endl;
 }
