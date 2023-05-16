@@ -19,7 +19,7 @@ public:
     }
 
     // 重载后置++运算符
-    MyInteger &operator++(int) // int 代表占位参数，用于区分前置 和后置递增
+    MyInteger operator++(int) // int 代表占位参数，用于区分前置 和后置递增
     {
         // 先记录当前本身值，然后让本身值+1，但是返回的是以前的值，达到先返回后++
         MyInteger temp = *this;
